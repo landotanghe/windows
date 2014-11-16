@@ -1,0 +1,1 @@
+dsquery * "CN=Lando Tanghe,OU=EM7INF,OU=Studenten,OU=iii,DC=iii,DC=hogent,DC=be" -u "Lando Tanghe" -p paswoord -s 193.190.126.71
