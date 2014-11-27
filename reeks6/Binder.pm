@@ -16,7 +16,7 @@ sub bind_object{
 	#logingegevens:
 	my $login ="Lando Tanghe";
 	my $pass = "Lando Tanghe";
-	my $domain= $ENV{"USERDNSDOMAIN"};
+	my $domain= $ENV{"USERDNSDOMAIN"} || "***";
 
 	#object ophalen afhankelijk van intern of extern
 	if($domain eq "III.HOGENT.BE"){
